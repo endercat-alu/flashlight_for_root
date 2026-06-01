@@ -1,0 +1,6 @@
+{
+  "name": "Root Flashlight",
+  "description": "直接通过Root权限读写sysfs节点实现闪光灯开关与平滑亮度调节的手电筒应用。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

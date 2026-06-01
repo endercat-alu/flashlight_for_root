@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background glowing light beam -->
+    <path
+        android:pathData="M54,12 L84,48 L24,48 Z"
+        android:fillColor="#FFD54F"
+        android:fillAlpha="0.32" />
+        
+    <!-- Beams of light radiating outwards -->
+    <path
+         android:pathData="M54,12 L54,4 M36,18 L28,10 M72,18 L80,10 M20,38 L10,38 M88,38 L98,38"
+         android:strokeColor="#FFD54F"
+         android:strokeWidth="3.5"
+         android:strokeLineCap="round"/>
+
+    <!-- Flashlight structural body -->
+    <!-- Grip handle -->
+    <path
+        android:pathData="M48,62 L60,62 L60,88 L48,88 Z"
+        android:fillColor="#EEEEEE" />
+    <!-- Ridges on grip handle -->
+    <path
+        android:pathData="M48,70 L60,70 M48,78 L60,78"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="2.5" />
+        
+    <!-- Bezel neck adapter -->
+    <path
+        android:pathData="M42,48 L66,48 L60,62 L48,62 Z"
+        android:fillColor="#757575" />
+        
+    <!-- Glass lens ring -->
+    <path
+        android:pathData="M42,48 L66,48"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+        
+    <!-- Physical power button on handle (Red glowing or indicator) -->
+    <path
+        android:pathData="M54,74 A3.5,3.5 0 1,1 53.99,74"
+        android:fillColor="#FF1744" />
+</vector>
